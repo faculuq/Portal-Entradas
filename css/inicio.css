@@ -1,0 +1,13 @@
+.navbar-light{
+    transition: all 1s ease;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	padding-top: 55px;
+}
+
+ul{
+	font-weight: bold;
+}
