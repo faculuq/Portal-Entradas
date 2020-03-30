@@ -1,16 +1,7 @@
 .navbar-light{
-    transition: all 1s ease;
+    transition: all 0.5s ease;
 }
 
-body{
-	font-family: 'Open Sans', sans-serif;
-	font-size: 16px;
-	padding-top: 55px;
-}
-
-ul{
-	font-weight: bold;
-}
 
 /*footer responsivo*/
 footer{
