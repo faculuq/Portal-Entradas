@@ -11,6 +11,10 @@ ul{
 	text-align: left;
 }
 
+#Caracteristicas{
+	color: white;
+}
+
 /*footer responsivo*/
 footer{
 	width: 100%;
