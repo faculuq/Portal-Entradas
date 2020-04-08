@@ -314,7 +314,7 @@ footer.footer .social-link:hover {
 }
 
 a {
-  color: #1D809F;
+  color: #3393c3;
 }
 
 a:hover, a:focus, a:active {
@@ -322,8 +322,8 @@ a:hover, a:focus, a:active {
 }
 
 .btn-primary {
-  background-color: #1D809F !important;
-  border-color: #1D809F !important;
+  background-color: #3393c3 !important;
+  border-color: #3393c3 !important;
   color: #fff !important;
 }
 
@@ -353,11 +353,11 @@ a:hover, a:focus, a:active {
 }
 
 .bg-primary {
-  background-color: #1D809F !important;
+  background-color: #3393c3 !important;
 }
 
 .text-primary {
-  color: #1D809F !important;
+  color: #3393c3 !important;
 }
 
 .text-secondary {

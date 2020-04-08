@@ -9965,10 +9965,10 @@ hr.light {
   padding: 0.75rem 0;
 }
 #mainNav .navbar-nav .nav-item .nav-link:hover, #mainNav .navbar-nav .nav-item .nav-link:active {
-  color: cyan;
+  color: #0FA5EC;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active {
-  color: cyan !important;
+  color: #0FA5EC !important;
 }
 @media (min-width: 992px) {
   #mainNav {
@@ -10000,13 +10000,13 @@ hr.light {
     color: #212529;
   }
   #mainNav.navbar-scrolled .navbar-brand:hover {
-    color: cyan;
+    color: #0FA5EC;
   }
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link {
     color: #212529;
   }
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link:hover {
-    color: cyan;
+    color: #0FA5EC;
   }
 }
 
