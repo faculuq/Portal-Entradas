@@ -8,6 +8,7 @@ body{
 	margin:auto;
 	min-width:410px;
 	max-width:2000px;
+	position: absolute;
 }
 
 ul{
