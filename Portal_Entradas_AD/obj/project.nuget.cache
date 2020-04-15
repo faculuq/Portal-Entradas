@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "0zrDWNSSjdhPa7x4XBQ3D3WDVBkxafr/07aDs0sFmWHumvZ3Sq7SBmyXBUafd30ytro6vtouDwmlmRtTJMS1AA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\facul\\OneDrive\\Documents\\GitHub\\Portal-Entradas\\Portal_Entradas_AD\\Portal_Entradas_AD.vbproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\facul\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\facul\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

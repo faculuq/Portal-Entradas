@@ -1,0 +1,473 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{E9A6BFDF-A26C-42D9-92D8-3DADDE57CD5D}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Portal_Entradas</RootNamespace>
+    <AssemblyName>Portal_Entradas</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44307</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Portal_Entradas.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Portal_Entradas.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="contacto.html" />
+    <Content Include="Contacto\contacto.html" />
+    <Content Include="Contacto\css\main.css" />
+    <Content Include="Contacto\css\util.css" />
+    <Content Include="Contacto\fonts\font-awesome-4.7.0\css\font-awesome.css" />
+    <Content Include="Contacto\fonts\font-awesome-4.7.0\css\font-awesome.min.css" />
+    <Content Include="Contacto\fonts\font-awesome-4.7.0\fonts\fontawesome-webfont.svg" />
+    <Content Include="Contacto\fonts\font-awesome-4.7.0\HELP-US-OUT.txt" />
+    <Content Include="Contacto\fonts\Linearicons-Free-v1.0.0\icon-font.min.css" />
+    <Content Include="Contacto\fonts\Linearicons-Free-v1.0.0\WebFont\Linearicons-Free.svg" />
+    <Content Include="Contacto\fonts\montserrat\OFL.txt" />
+    <Content Include="Contacto\fonts\OFL.txt" />
+    <Content Include="Contacto\images\icons\favicon.ico" />
+    <Content Include="Contacto\js\main.js" />
+    <Content Include="Contacto\vendor\animate\animate.css" />
+    <Content Include="Contacto\vendor\animsition\css\animsition.css" />
+    <Content Include="Contacto\vendor\animsition\css\animsition.min.css" />
+    <Content Include="Contacto\vendor\animsition\js\animsition.js" />
+    <Content Include="Contacto\vendor\animsition\js\animsition.min.js" />
+    <Content Include="Contacto\vendor\bootstrap\css\bootstrap-grid.css" />
+    <Content Include="Contacto\vendor\bootstrap\css\bootstrap-grid.min.css" />
+    <Content Include="Contacto\vendor\bootstrap\css\bootstrap-reboot.css" />
+    <Content Include="Contacto\vendor\bootstrap\css\bootstrap-reboot.min.css" />
+    <Content Include="Contacto\vendor\bootstrap\css\bootstrap.css" />
+    <Content Include="Contacto\vendor\bootstrap\css\bootstrap.min.css" />
+    <Content Include="Contacto\vendor\bootstrap\js\bootstrap.js" />
+    <Content Include="Contacto\vendor\bootstrap\js\bootstrap.min.js" />
+    <Content Include="Contacto\vendor\bootstrap\js\popper.js" />
+    <Content Include="Contacto\vendor\bootstrap\js\popper.min.js" />
+    <Content Include="Contacto\vendor\bootstrap\js\tooltip.js" />
+    <Content Include="Contacto\vendor\countdowntime\countdowntime.js" />
+    <Content Include="Contacto\vendor\css-hamburgers\hamburgers.css" />
+    <Content Include="Contacto\vendor\css-hamburgers\hamburgers.min.css" />
+    <Content Include="Contacto\vendor\daterangepicker\daterangepicker.css" />
+    <Content Include="Contacto\vendor\daterangepicker\daterangepicker.js" />
+    <Content Include="Contacto\vendor\daterangepicker\moment.js" />
+    <Content Include="Contacto\vendor\daterangepicker\moment.min.js" />
+    <Content Include="Contacto\vendor\jquery\jquery-3.2.1.min.js" />
+    <Content Include="Contacto\vendor\perfect-scrollbar\perfect-scrollbar.css" />
+    <Content Include="Contacto\vendor\perfect-scrollbar\perfect-scrollbar.min.js" />
+    <Content Include="Contacto\vendor\select2\select2.css" />
+    <Content Include="Contacto\vendor\select2\select2.js" />
+    <Content Include="Contacto\vendor\select2\select2.min.css" />
+    <Content Include="Contacto\vendor\select2\select2.min.js" />
+    <Content Include="css\animate.css" />
+    <Content Include="css\contacto.css" />
+    <Content Include="css\inicio.css" />
+    <Content Include="css\lightbox.css" />
+    <Content Include="css\lightbox.min.css" />
+    <Content Include="css\styles.css" />
+    <Content Include="css\stylish-portfolio.css" />
+    <Content Include="css\stylish-portfolio.min.css" />
+    <Content Include="frm_inicio.aspx" />
+    <Content Include="frm_landing.aspx" />
+    <Content Include="images\close.png" />
+    <Content Include="images\loading.gif" />
+    <Content Include="images\next.png" />
+    <Content Include="images\prev.png" />
+    <Content Include="img\bg-01.jpg" />
+    <Content Include="img\bg-callout.jpg" />
+    <Content Include="img\bg-masthead.jpg" />
+    <Content Include="img\bg-masthead2.jpg" />
+    <Content Include="img\email.png" />
+    <Content Include="img\facebook.png" />
+    <Content Include="img\instagram.png" />
+    <Content Include="img\logo3.png" />
+    <Content Include="img\logo3min.png" />
+    <Content Include="img\portada-9.png" />
+    <Content Include="img\portfolio-1.jpg" />
+    <Content Include="img\portfolio-2.jpg" />
+    <Content Include="img\portfolio-3.jpg" />
+    <Content Include="img\portfolio-4.jpg" />
+    <Content Include="img\portfolio-5.jpg" />
+    <Content Include="img\portfolio-6.jpg" />
+    <Content Include="img\portfolio-7.jpg" />
+    <Content Include="img\portfolio-8.jpg" />
+    <Content Include="img\Propuesta marca.jpg" />
+    <Content Include="img\Propuesta_marca_PORTAL_EN-002.png" />
+    <Content Include="img\Propuesta_marca_PORTAL_EN-005.jpg" />
+    <Content Include="img\Propuesta_marca_PORTAL_EN-012.png" />
+    <Content Include="img\purple.jpg" />
+    <Content Include="img\qr.jpg" />
+    <Content Include="img\ubicacion.png" />
+    <Content Include="img\whatsapp.png" />
+    <Content Include="index.html" />
+    <Content Include="js\lightbox-plus-jquery.js" />
+    <Content Include="js\lightbox-plus-jquery.min.js" />
+    <Content Include="js\lightbox.js" />
+    <Content Include="js\lightbox.min.js" />
+    <Content Include="js\scripts.js" />
+    <Content Include="js\stylish-portfolio.js" />
+    <Content Include="js\stylish-portfolio.min.js" />
+    <Content Include="js\validacion.js" />
+    <Content Include="js\wow.min.js" />
+    <Content Include="vendor\bootstrap\css\bootstrap-grid.css" />
+    <Content Include="vendor\bootstrap\css\bootstrap-grid.min.css" />
+    <Content Include="vendor\bootstrap\css\bootstrap-reboot.css" />
+    <Content Include="vendor\bootstrap\css\bootstrap-reboot.min.css" />
+    <Content Include="vendor\bootstrap\css\bootstrap.css" />
+    <Content Include="vendor\bootstrap\css\bootstrap.min.css" />
+    <Content Include="vendor\bootstrap\js\bootstrap.bundle.js" />
+    <Content Include="vendor\bootstrap\js\bootstrap.bundle.min.js" />
+    <Content Include="vendor\bootstrap\js\bootstrap.js" />
+    <Content Include="vendor\bootstrap\js\bootstrap.min.js" />
+    <Content Include="vendor\fontawesome-free\css\all.css" />
+    <Content Include="vendor\fontawesome-free\css\all.min.css" />
+    <Content Include="vendor\fontawesome-free\css\brands.css" />
+    <Content Include="vendor\fontawesome-free\css\brands.min.css" />
+    <Content Include="vendor\fontawesome-free\css\fontawesome.css" />
+    <Content Include="vendor\fontawesome-free\css\fontawesome.min.css" />
+    <Content Include="vendor\fontawesome-free\css\regular.css" />
+    <Content Include="vendor\fontawesome-free\css\regular.min.css" />
+    <Content Include="vendor\fontawesome-free\css\solid.css" />
+    <Content Include="vendor\fontawesome-free\css\solid.min.css" />
+    <Content Include="vendor\fontawesome-free\css\svg-with-js.css" />
+    <Content Include="vendor\fontawesome-free\css\svg-with-js.min.css" />
+    <Content Include="vendor\fontawesome-free\css\v4-shims.css" />
+    <Content Include="vendor\fontawesome-free\css\v4-shims.min.css" />
+    <Content Include="vendor\fontawesome-free\webfonts\fa-brands-400.svg" />
+    <Content Include="vendor\fontawesome-free\webfonts\fa-regular-400.svg" />
+    <Content Include="vendor\fontawesome-free\webfonts\fa-solid-900.svg" />
+    <Content Include="vendor\jquery-easing\jquery.easing.compatibility.js" />
+    <Content Include="vendor\jquery-easing\jquery.easing.js" />
+    <Content Include="vendor\jquery-easing\jquery.easing.min.js" />
+    <Content Include="vendor\jquery\jquery.js" />
+    <Content Include="vendor\jquery\jquery.min.js" />
+    <Content Include="vendor\jquery\jquery.slim.js" />
+    <Content Include="vendor\jquery\jquery.slim.min.js" />
+    <Content Include="vendor\simple-line-icons\css\simple-line-icons.css" />
+    <Content Include="vendor\simple-line-icons\fonts\Simple-Line-Icons.svg" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frm_inicio.aspx.designer.vb">
+      <DependentUpon>frm_inicio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frm_inicio.aspx.vb">
+      <DependentUpon>frm_inicio.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="frm_landing.aspx.designer.vb">
+      <DependentUpon>frm_landing.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frm_landing.aspx.vb">
+      <DependentUpon>frm_landing.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWebExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.Web.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Contacto\fonts\font-awesome-4.7.0\fonts\fontawesome-webfont.eot" />
+    <Content Include="Contacto\fonts\font-awesome-4.7.0\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Contacto\fonts\font-awesome-4.7.0\fonts\fontawesome-webfont.woff" />
+    <Content Include="Contacto\fonts\font-awesome-4.7.0\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Contacto\fonts\font-awesome-4.7.0\fonts\FontAwesome.otf" />
+    <Content Include="Contacto\fonts\font-awesome-4.7.0\less\animated.less" />
+    <Content Include="Contacto\fonts\font-awesome-4.7.0\less\bordered-pulled.less" />
+    <Content Include="Contacto\fonts\font-awesome-4.7.0\less\core.less" />
+    <Content Include="Contacto\fonts\font-awesome-4.7.0\less\fixed-width.less" />
+    <Content Include="Contacto\fonts\font-awesome-4.7.0\less\font-awesome.less" />
+    <Content Include="Contacto\fonts\font-awesome-4.7.0\less\icons.less" />
+    <Content Include="Contacto\fonts\font-awesome-4.7.0\less\larger.less" />
+    <Content Include="Contacto\fonts\font-awesome-4.7.0\less\list.less" />
+    <Content Include="Contacto\fonts\font-awesome-4.7.0\less\mixins.less" />
+    <Content Include="Contacto\fonts\font-awesome-4.7.0\less\path.less" />
+    <Content Include="Contacto\fonts\font-awesome-4.7.0\less\rotated-flipped.less" />
+    <Content Include="Contacto\fonts\font-awesome-4.7.0\less\screen-reader.less" />
+    <Content Include="Contacto\fonts\font-awesome-4.7.0\less\stacked.less" />
+    <Content Include="Contacto\fonts\font-awesome-4.7.0\less\variables.less" />
+    <Content Include="Contacto\fonts\font-awesome-4.7.0\scss\font-awesome.scss" />
+    <Content Include="Contacto\fonts\font-awesome-4.7.0\scss\_animated.scss" />
+    <Content Include="Contacto\fonts\font-awesome-4.7.0\scss\_bordered-pulled.scss" />
+    <Content Include="Contacto\fonts\font-awesome-4.7.0\scss\_core.scss" />
+    <Content Include="Contacto\fonts\font-awesome-4.7.0\scss\_fixed-width.scss" />
+    <Content Include="Contacto\fonts\font-awesome-4.7.0\scss\_icons.scss" />
+    <Content Include="Contacto\fonts\font-awesome-4.7.0\scss\_larger.scss" />
+    <Content Include="Contacto\fonts\font-awesome-4.7.0\scss\_list.scss" />
+    <Content Include="Contacto\fonts\font-awesome-4.7.0\scss\_mixins.scss" />
+    <Content Include="Contacto\fonts\font-awesome-4.7.0\scss\_path.scss" />
+    <Content Include="Contacto\fonts\font-awesome-4.7.0\scss\_rotated-flipped.scss" />
+    <Content Include="Contacto\fonts\font-awesome-4.7.0\scss\_screen-reader.scss" />
+    <Content Include="Contacto\fonts\font-awesome-4.7.0\scss\_stacked.scss" />
+    <Content Include="Contacto\fonts\font-awesome-4.7.0\scss\_variables.scss" />
+    <Content Include="Contacto\fonts\lato\Lato-Black.ttf" />
+    <Content Include="Contacto\fonts\lato\Lato-BlackItalic.ttf" />
+    <Content Include="Contacto\fonts\lato\Lato-Bold.ttf" />
+    <Content Include="Contacto\fonts\lato\Lato-BoldItalic.ttf" />
+    <Content Include="Contacto\fonts\lato\Lato-Italic.ttf" />
+    <Content Include="Contacto\fonts\lato\Lato-Light.ttf" />
+    <Content Include="Contacto\fonts\lato\Lato-LightItalic.ttf" />
+    <Content Include="Contacto\fonts\lato\Lato-Regular.ttf" />
+    <Content Include="Contacto\fonts\lato\Lato-Thin.ttf" />
+    <Content Include="Contacto\fonts\lato\Lato-ThinItalic.ttf" />
+    <Content Include="Contacto\fonts\Linearicons-Free-v1.0.0\WebFont\Linearicons-Free.eot" />
+    <Content Include="Contacto\fonts\Linearicons-Free-v1.0.0\WebFont\Linearicons-Free.ttf" />
+    <Content Include="Contacto\fonts\Linearicons-Free-v1.0.0\WebFont\Linearicons-Free.woff" />
+    <Content Include="Contacto\fonts\Linearicons-Free-v1.0.0\WebFont\Linearicons-Free.woff2" />
+    <Content Include="Contacto\fonts\montserrat\Montserrat-Black.ttf" />
+    <Content Include="Contacto\fonts\montserrat\Montserrat-BlackItalic.ttf" />
+    <Content Include="Contacto\fonts\montserrat\Montserrat-Bold.ttf" />
+    <Content Include="Contacto\fonts\montserrat\Montserrat-BoldItalic.ttf" />
+    <Content Include="Contacto\fonts\montserrat\Montserrat-ExtraBold.ttf" />
+    <Content Include="Contacto\fonts\montserrat\Montserrat-ExtraBoldItalic.ttf" />
+    <Content Include="Contacto\fonts\montserrat\Montserrat-ExtraLight.ttf" />
+    <Content Include="Contacto\fonts\montserrat\Montserrat-ExtraLightItalic.ttf" />
+    <Content Include="Contacto\fonts\montserrat\Montserrat-Italic.ttf" />
+    <Content Include="Contacto\fonts\montserrat\Montserrat-Light.ttf" />
+    <Content Include="Contacto\fonts\montserrat\Montserrat-LightItalic.ttf" />
+    <Content Include="Contacto\fonts\montserrat\Montserrat-Medium.ttf" />
+    <Content Include="Contacto\fonts\montserrat\Montserrat-MediumItalic.ttf" />
+    <Content Include="Contacto\fonts\montserrat\Montserrat-Regular.ttf" />
+    <Content Include="Contacto\fonts\montserrat\Montserrat-SemiBold.ttf" />
+    <Content Include="Contacto\fonts\montserrat\Montserrat-SemiBoldItalic.ttf" />
+    <Content Include="Contacto\fonts\montserrat\Montserrat-Thin.ttf" />
+    <Content Include="Contacto\fonts\montserrat\Montserrat-ThinItalic.ttf" />
+    <Content Include="Contacto\fonts\poppins\Poppins-Black.ttf" />
+    <Content Include="Contacto\fonts\poppins\Poppins-BlackItalic.ttf" />
+    <Content Include="Contacto\fonts\poppins\Poppins-Bold.ttf" />
+    <Content Include="Contacto\fonts\poppins\Poppins-BoldItalic.ttf" />
+    <Content Include="Contacto\fonts\poppins\Poppins-ExtraBold.ttf" />
+    <Content Include="Contacto\fonts\poppins\Poppins-ExtraBoldItalic.ttf" />
+    <Content Include="Contacto\fonts\poppins\Poppins-ExtraLight.ttf" />
+    <Content Include="Contacto\fonts\poppins\Poppins-ExtraLightItalic.ttf" />
+    <Content Include="Contacto\fonts\poppins\Poppins-Italic.ttf" />
+    <Content Include="Contacto\fonts\poppins\Poppins-Light.ttf" />
+    <Content Include="Contacto\fonts\poppins\Poppins-LightItalic.ttf" />
+    <Content Include="Contacto\fonts\poppins\Poppins-Medium.ttf" />
+    <Content Include="Contacto\fonts\poppins\Poppins-MediumItalic.ttf" />
+    <Content Include="Contacto\fonts\poppins\Poppins-Regular.ttf" />
+    <Content Include="Contacto\fonts\poppins\Poppins-SemiBold.ttf" />
+    <Content Include="Contacto\fonts\poppins\Poppins-SemiBoldItalic.ttf" />
+    <Content Include="Contacto\fonts\poppins\Poppins-Thin.ttf" />
+    <Content Include="Contacto\fonts\poppins\Poppins-ThinItalic.ttf" />
+    <Content Include="Contacto\vendor\bootstrap\css\bootstrap-grid.css.map" />
+    <Content Include="Contacto\vendor\bootstrap\css\bootstrap-grid.min.css.map" />
+    <Content Include="Contacto\vendor\bootstrap\css\bootstrap-reboot.css.map" />
+    <Content Include="Contacto\vendor\bootstrap\css\bootstrap-reboot.min.css.map" />
+    <Content Include="Contacto\vendor\bootstrap\css\bootstrap.css.map" />
+    <Content Include="Contacto\vendor\bootstrap\css\bootstrap.min.css.map" />
+    <Content Include="fonts\lato\Lato-Black.ttf" />
+    <Content Include="fonts\lato\Lato-BlackItalic.ttf" />
+    <Content Include="fonts\lato\Lato-Bold.ttf" />
+    <Content Include="fonts\lato\Lato-BoldItalic.ttf" />
+    <Content Include="fonts\lato\Lato-Italic.ttf" />
+    <Content Include="fonts\lato\Lato-Light.ttf" />
+    <Content Include="fonts\lato\Lato-LightItalic.ttf" />
+    <Content Include="fonts\lato\Lato-Regular.ttf" />
+    <Content Include="fonts\lato\Lato-Thin.ttf" />
+    <Content Include="fonts\lato\Lato-ThinItalic.ttf" />
+    <Content Include="js\lightbox-plus-jquery.min.map" />
+    <Content Include="js\lightbox.min.map" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="packages.config" />
+    <Content Include="vendor\bootstrap\css\bootstrap-grid.css.map" />
+    <Content Include="vendor\bootstrap\css\bootstrap-grid.min.css.map" />
+    <Content Include="vendor\bootstrap\css\bootstrap-reboot.css.map" />
+    <Content Include="vendor\bootstrap\css\bootstrap-reboot.min.css.map" />
+    <Content Include="vendor\bootstrap\css\bootstrap.css.map" />
+    <Content Include="vendor\bootstrap\css\bootstrap.min.css.map" />
+    <Content Include="vendor\bootstrap\js\bootstrap.bundle.js.map" />
+    <Content Include="vendor\bootstrap\js\bootstrap.bundle.min.js.map" />
+    <Content Include="vendor\bootstrap\js\bootstrap.js.map" />
+    <Content Include="vendor\bootstrap\js\bootstrap.min.js.map" />
+    <Content Include="vendor\fontawesome-free\webfonts\fa-brands-400.eot" />
+    <Content Include="vendor\fontawesome-free\webfonts\fa-brands-400.ttf" />
+    <Content Include="vendor\fontawesome-free\webfonts\fa-brands-400.woff" />
+    <Content Include="vendor\fontawesome-free\webfonts\fa-brands-400.woff2" />
+    <Content Include="vendor\fontawesome-free\webfonts\fa-regular-400.eot" />
+    <Content Include="vendor\fontawesome-free\webfonts\fa-regular-400.ttf" />
+    <Content Include="vendor\fontawesome-free\webfonts\fa-regular-400.woff" />
+    <Content Include="vendor\fontawesome-free\webfonts\fa-regular-400.woff2" />
+    <Content Include="vendor\fontawesome-free\webfonts\fa-solid-900.eot" />
+    <Content Include="vendor\fontawesome-free\webfonts\fa-solid-900.ttf" />
+    <Content Include="vendor\fontawesome-free\webfonts\fa-solid-900.woff" />
+    <Content Include="vendor\fontawesome-free\webfonts\fa-solid-900.woff2" />
+    <Content Include="vendor\jquery\jquery.min.map" />
+    <Content Include="vendor\jquery\jquery.slim.min.map" />
+    <Content Include="vendor\simple-line-icons\fonts\Simple-Line-Icons.eot" />
+    <Content Include="vendor\simple-line-icons\fonts\Simple-Line-Icons.ttf" />
+    <Content Include="vendor\simple-line-icons\fonts\Simple-Line-Icons.woff" />
+    <Content Include="vendor\simple-line-icons\fonts\Simple-Line-Icons.woff2" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Portal_Entradas_AD\Portal_Entradas_AD.vbproj">
+      <Project>{507300ca-bcb2-4f3d-8e01-a57cabbb3b0f}</Project>
+      <Name>Portal_Entradas_AD</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>57257</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44307/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Este proyecto hace referencia a los paquetes NuGet que faltan en este equipo. Use la restauración de paquetes NuGet para descargarlos. Para obtener más información, consulte http://go.microsoft.com/fwlink/?LinkID=322105. El archivo que falta es {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
