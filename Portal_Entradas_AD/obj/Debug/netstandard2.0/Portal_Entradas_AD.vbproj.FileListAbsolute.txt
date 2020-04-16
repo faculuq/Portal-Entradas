@@ -13,3 +13,8 @@ C:\Users\facul\Good Apps\Portal_Entradas\Portal_Entradas_AD\obj\Debug\netstandar
 C:\Users\facul\Good Apps\Portal_Entradas\Portal_Entradas_AD\obj\Debug\netstandard2.0\Portal_Entradas_AD.vbproj.CopyComplete
 C:\Users\facul\Good Apps\Portal_Entradas\Portal_Entradas_AD\obj\Debug\netstandard2.0\Portal_Entradas_AD.dll
 C:\Users\facul\Good Apps\Portal_Entradas\Portal_Entradas_AD\obj\Debug\netstandard2.0\Portal_Entradas_AD.pdb
+C:\Users\usuario\Documents\GitHub\Portal-Entradas\Portal_Entradas_AD\obj\Debug\netstandard2.0\Portal_Entradas_AD.vbprojAssemblyReference.cache
+C:\Users\usuario\Documents\GitHub\Portal-Entradas\Portal_Entradas_AD\obj\Debug\netstandard2.0\Portal_Entradas_AD.AssemblyInfoInputs.cache
+C:\Users\usuario\Documents\GitHub\Portal-Entradas\Portal_Entradas_AD\obj\Debug\netstandard2.0\Portal_Entradas_AD.AssemblyInfo.vb
+C:\Users\usuario\Documents\GitHub\Portal-Entradas\Portal_Entradas_AD\obj\Debug\netstandard2.0\Portal_Entradas_AD.dll
+C:\Users\usuario\Documents\GitHub\Portal-Entradas\Portal_Entradas_AD\obj\Debug\netstandard2.0\Portal_Entradas_AD.pdb
