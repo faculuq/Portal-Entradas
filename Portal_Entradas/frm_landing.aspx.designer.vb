@@ -20,7 +20,7 @@ Partial Public Class frm_landing
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents txtNombre As Global.System.Web.UI.HtmlControls.HtmlInputText
+    Protected WithEvents txtNombre As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
     '''Control txtApellido.
@@ -29,7 +29,7 @@ Partial Public Class frm_landing
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents txtApellido As Global.System.Web.UI.HtmlControls.HtmlInputText
+    Protected WithEvents txtApellido As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
     '''Control txtEmail.
@@ -38,7 +38,7 @@ Partial Public Class frm_landing
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents txtEmail As Global.System.Web.UI.HtmlControls.HtmlInputText
+    Protected WithEvents txtEmail As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
     '''Control txtTelefono.
@@ -47,7 +47,7 @@ Partial Public Class frm_landing
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents txtTelefono As Global.System.Web.UI.HtmlControls.HtmlInputText
+    Protected WithEvents txtTelefono As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
     '''Control txtMensaje.
@@ -57,6 +57,15 @@ Partial Public Class frm_landing
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents txtMensaje As Global.System.Web.UI.HtmlControls.HtmlTextArea
+
+    '''<summary>
+    '''Control btnEnviar.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents btnEnviar As Global.System.Web.UI.HtmlControls.HtmlButton
 
     '''<summary>
     '''Control btn_enviar.
