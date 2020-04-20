@@ -17,7 +17,7 @@ Public Class frm_landing
         Dim toAddress As String = txtEmail.Text.ToString()
         Dim fromAddress As String = "software.goodapps@gmail.com"
         Const fromPassword As String = "Passw0rd.99"
-        Dim subject As String = Mensaje.ToString()
+        Dim subject As String = "Mensaje de Portal Entradas"
         Dim body As String = "De: " & Nombre.ToString & vbCrLf
         body += "Apellido: " & Apellido.ToString & vbCrLf
         body += "Email: " & Email.ToString & vbCrLf
