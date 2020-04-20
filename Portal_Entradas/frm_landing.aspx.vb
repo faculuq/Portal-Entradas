@@ -45,10 +45,10 @@ Public Class frm_landing
 
         If txtNombre.Text <> Nothing And txtApellido.Text <> Nothing And txtEmail.Text <> Nothing And txtTelefono.Text <> Nothing And txtMensaje.Value <> Nothing Then
             oMensaje.Agregar(txtNombre.Text, txtApellido.Text, txtEmail.Text, txtTelefono.Text, txtMensaje.Value)
-
+            Alerta()
         End If
 
-        SendMail(txtNombre.Text, txtApellido.Text, txtEmail.Text, txtTelefono.Text, txtMensaje.InnerText)
+        'SendMail(txtNombre.Text, txtApellido.Text, txtEmail.Text, txtTelefono.Text, txtMensaje.InnerText)
 
         Limpiar()
     End Sub
@@ -60,5 +60,19 @@ Public Class frm_landing
         txtMensaje.Value = Nothing
         txtNombre.Text = Nothing
         txtTelefono.Text = Nothing
+    End Sub
+
+    Private Sub Alerta()
+        If txtNombre.Text <> Nothing And txtApellido.Text <> Nothing And txtEmail.Text <> Nothing And txtTelefono.Text <> Nothing And txtMensaje.Value <> Nothing Then
+
+
+            Dim message As String = "Mensaje enviado correctamente."
+            Dim script As String = "window.onload = function(){ swal('Mensaje Informativo','"
+            script &= message
+            script &= "','success')};"
+            ClientScript.RegisterStartupScript(Me.GetType(), "SuccessMessage", script, True)
+
+
+        End If
     End Sub
 End Class
