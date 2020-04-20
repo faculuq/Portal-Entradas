@@ -7,7 +7,7 @@ Public Class frm_landing
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
         If Page.IsPostBack = False Then
-            'Limpiar()
+            Limpiar()
         End If
     End Sub
 
@@ -50,15 +50,15 @@ Public Class frm_landing
 
         SendMail(txtNombre.Text, txtApellido.Text, txtEmail.Text, txtTelefono.Text, txtMensaje.InnerText)
 
-        'Limpiar()
+        Limpiar()
     End Sub
 #End Region
 
-    'Private Sub Limpiar()
-    '    txtApellido.Text = Nothing
-    '    txtEmail.Text = Nothing
-    '    txtMensaje.Value = Nothing
-    '    txtNombre.Text = Nothing
-    '    txtTelefono.Text = Nothing
-    'End Sub
+    Private Sub Limpiar()
+        txtApellido.Text = Nothing
+        txtEmail.Text = Nothing
+        txtMensaje.Value = Nothing
+        txtNombre.Text = Nothing
+        txtTelefono.Text = Nothing
+    End Sub
 End Class
