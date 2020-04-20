@@ -30,6 +30,19 @@
 	<link rel="stylesheet" type="text/css" href="Contacto/css/util.css">
 	<link rel="stylesheet" type="text/css" href="Contacto/css/main.css">
 <!--===============================================================================================-->
+
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+	<script>
+        function alerta() {
+            Swal.fire(
+                '!Muchas gracias!',
+                'Tu mensaje se envió correctamente',
+                'success'
+            )
+        }
+	</script>
+		
+		
 </head>
 <body>
   <div class="container-contact100">
@@ -167,7 +180,7 @@
 			dropdownParent: $('#dropDownSelect1')
 		});
 	</script>
-	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+	
 <!--===============================================================================================-->
 	<script src="Contacto/vendor/daterangepicker/moment.min.js"></script>
 	<script src="Contacto/vendor/daterangepicker/daterangepicker.js"></script>

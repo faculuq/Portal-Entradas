@@ -56,11 +56,7 @@
         var thisAlert = $(input).parent();
 
         $(thisAlert).removeClass('alert-validate');
-        Swal.fire(
-            'Ideas Logística.',
-            'Su mensaje se envió correctamente',
-            'check'
-        )
+        
     }
 
    

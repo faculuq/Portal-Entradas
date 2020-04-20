@@ -46,7 +46,7 @@ Public Class frm_landing
         If txtNombre.Text <> Nothing And txtApellido.Text <> Nothing And txtEmail.Text <> Nothing And txtTelefono.Text <> Nothing And txtMensaje.Value <> Nothing Then
             oMensaje.Agregar(txtNombre.Text, txtApellido.Text, txtEmail.Text, txtTelefono.Text, txtMensaje.Value)
             SendMail(txtNombre.Text, txtApellido.Text, txtEmail.Text, txtTelefono.Text, txtMensaje.InnerText)
-
+            ScriptManager.RegisterClientScriptBlock(Me, GetType(String), "mensaje", "alerta()", True)
             Limpiar()
         End If
 
