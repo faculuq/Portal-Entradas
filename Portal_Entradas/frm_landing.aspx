@@ -73,9 +73,9 @@
 
 				<div class="container-contact100-form-btn" runat="server">
                     
-					<button class="contact100-form-btn" id="btnEnviar" runat="server">
-						<asp:Button ID="btn_enviar" class="contact100-form-btn" runat="server"  Text="Enviar" />
-					</button>
+					
+						<asp:Button ID="btn_enviar" class="contact100-form-btn" runat="server"  Text="Enviar" Height="50px" Width="99px" />
+					
 				</div>
 			</form>
 
@@ -167,6 +167,7 @@
 			dropdownParent: $('#dropDownSelect1')
 		});
 	</script>
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
 <!--===============================================================================================-->
 	<script src="Contacto/vendor/daterangepicker/moment.min.js"></script>
 	<script src="Contacto/vendor/daterangepicker/daterangepicker.js"></script>

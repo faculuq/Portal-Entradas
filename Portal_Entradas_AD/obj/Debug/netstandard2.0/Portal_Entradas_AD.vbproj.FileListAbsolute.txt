@@ -18,3 +18,9 @@ C:\Users\usuario\Documents\GitHub\Portal-Entradas\Portal_Entradas_AD\obj\Debug\n
 C:\Users\usuario\Documents\GitHub\Portal-Entradas\Portal_Entradas_AD\obj\Debug\netstandard2.0\Portal_Entradas_AD.AssemblyInfo.vb
 C:\Users\usuario\Documents\GitHub\Portal-Entradas\Portal_Entradas_AD\obj\Debug\netstandard2.0\Portal_Entradas_AD.dll
 C:\Users\usuario\Documents\GitHub\Portal-Entradas\Portal_Entradas_AD\obj\Debug\netstandard2.0\Portal_Entradas_AD.pdb
+C:\Users\facul\OneDrive\Documents\GitHub\Portal-Entradas\Portal_Entradas_AD\obj\Debug\netstandard2.0\Portal_Entradas_AD.vbprojAssemblyReference.cache
+C:\Users\facul\OneDrive\Documents\GitHub\Portal-Entradas\Portal_Entradas_AD\obj\Debug\netstandard2.0\Portal_Entradas_AD.vbproj.CoreCompileInputs.cache
+C:\Users\facul\OneDrive\Documents\GitHub\Portal-Entradas\Portal_Entradas_AD\obj\Debug\netstandard2.0\Portal_Entradas_AD.AssemblyInfoInputs.cache
+C:\Users\facul\OneDrive\Documents\GitHub\Portal-Entradas\Portal_Entradas_AD\obj\Debug\netstandard2.0\Portal_Entradas_AD.AssemblyInfo.vb
+C:\Users\facul\OneDrive\Documents\GitHub\Portal-Entradas\Portal_Entradas_AD\obj\Debug\netstandard2.0\Portal_Entradas_AD.dll
+C:\Users\facul\OneDrive\Documents\GitHub\Portal-Entradas\Portal_Entradas_AD\obj\Debug\netstandard2.0\Portal_Entradas_AD.pdb

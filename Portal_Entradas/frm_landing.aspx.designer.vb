@@ -59,15 +59,6 @@ Partial Public Class frm_landing
     Protected WithEvents txtMensaje As Global.System.Web.UI.HtmlControls.HtmlTextArea
 
     '''<summary>
-    '''Control btnEnviar.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents btnEnviar As Global.System.Web.UI.HtmlControls.HtmlButton
-
-    '''<summary>
     '''Control btn_enviar.
     '''</summary>
     '''<remarks>

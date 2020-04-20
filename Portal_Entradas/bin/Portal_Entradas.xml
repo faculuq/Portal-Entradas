@@ -91,15 +91,6 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Portal_Entradas.frm_landing._btnEnviar">
-<summary>
-Control btnEnviar.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
 <member name="F:Portal_Entradas.frm_landing._btn_enviar">
 <summary>
 Control btn_enviar.
