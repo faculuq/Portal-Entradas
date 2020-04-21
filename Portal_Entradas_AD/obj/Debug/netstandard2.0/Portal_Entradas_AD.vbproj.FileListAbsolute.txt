@@ -24,3 +24,12 @@ C:\Users\facul\OneDrive\Documents\GitHub\Portal-Entradas\Portal_Entradas_AD\obj\
 C:\Users\facul\OneDrive\Documents\GitHub\Portal-Entradas\Portal_Entradas_AD\obj\Debug\netstandard2.0\Portal_Entradas_AD.AssemblyInfo.vb
 C:\Users\facul\OneDrive\Documents\GitHub\Portal-Entradas\Portal_Entradas_AD\obj\Debug\netstandard2.0\Portal_Entradas_AD.dll
 C:\Users\facul\OneDrive\Documents\GitHub\Portal-Entradas\Portal_Entradas_AD\obj\Debug\netstandard2.0\Portal_Entradas_AD.pdb
+C:\Users\facul\OneDrive\Documents\GitHub\Portal-Entradas\Portal_Entradas_AD\bin\Debug\netstandard2.0\Portal_Entradas_AD.deps.json
+C:\Users\facul\OneDrive\Documents\GitHub\Portal-Entradas\Portal_Entradas_AD\bin\Debug\netstandard2.0\Portal_Entradas_AD.dll
+C:\Users\facul\OneDrive\Documents\GitHub\Portal-Entradas\Portal_Entradas_AD\bin\Debug\netstandard2.0\Portal_Entradas_AD.pdb
+C:\Users\facul\OneDrive\Documents\GitHub\Portal-Entradas\Portal_Entradas_AD\bin\Debug\netstandard2.0\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\facul\OneDrive\Documents\GitHub\Portal-Entradas\Portal_Entradas_AD\bin\Debug\netstandard2.0\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\facul\OneDrive\Documents\GitHub\Portal-Entradas\Portal_Entradas_AD\bin\Debug\netstandard2.0\Microsoft.Practices.ServiceLocation.dll
+C:\Users\facul\OneDrive\Documents\GitHub\Portal-Entradas\Portal_Entradas_AD\bin\Debug\netstandard2.0\Microsoft.Practices.Unity.dll
+C:\Users\facul\OneDrive\Documents\GitHub\Portal-Entradas\Portal_Entradas_AD\bin\Debug\netstandard2.0\Microsoft.Practices.Unity.Interception.dll
+C:\Users\facul\OneDrive\Documents\GitHub\Portal-Entradas\Portal_Entradas_AD\obj\Debug\netstandard2.0\Portal_Entradas_AD.vbproj.CopyComplete
